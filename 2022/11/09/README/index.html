@@ -150,11 +150,6 @@ return 0;
 
     </div>
     
-    <link rel="stylesheet" href="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.css">
-    <div id="comment">
-        <div id="gitalk-container"></div>
-    </div>
-    
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/waline/2.9.1/waline.min.css" />
     <div id="comment">
@@ -189,24 +184,6 @@ return 0;
         <script src="/js/particlex.js"></script>
         <script src="/js/showimg.js"></script>
         
-<script src="https://cdn.staticfile.org/gitalk/1.7.2/gitalk.min.js"></script>
-<script>
-    var clientID = "", clientSecret = "";
-    
-    const gitalk = new Gitalk({
-        clientID: clientID,
-        clientSecret: clientSecret,
-        repo: "",
-        owner: "",
-        admin: [""],
-        language: "zh-CN",
-        id: location.pathname,
-        distractionFreeMode: false,
-        
-    })
-    gitalk.render("gitalk-container")
-</script>
-
 
 <script src="https://cdn.staticfile.org/waline/2.9.1/waline.min.js"></script>
 <script>
